@@ -5,7 +5,9 @@ var chocolateBars = [
   'skittles'
 ]
 
-var nerds = "nerds"
+var nerds = "nerds";
+
+var indexposition = 0;
 
 function addElementToBeginningOfArray(chocolateBars, nerds) {
   return [nerds, ...chocolateBars]
@@ -25,6 +27,6 @@ function destructivelyAddElementToEndOfArray(chocolateBars, nerds) {
     return chocolateBars
 }
 
-function accessElementInArray(chocolateBars, 0) {
+function accessElementInArray(chocolateBars, indexposition) {
   return chocolateBars[0]
 }
