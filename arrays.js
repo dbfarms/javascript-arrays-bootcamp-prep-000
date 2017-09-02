@@ -28,5 +28,5 @@ function destructivelyAddElementToEndOfArray(chocolateBars, nerds) {
 }
 
 function accessElementInArray(chocolateBars, indexposition) {
-  return chocolateBars[0]
+  return chocolateBars[indexposition]
 }
