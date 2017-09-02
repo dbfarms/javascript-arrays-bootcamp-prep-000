@@ -31,4 +31,7 @@ function accessElementInArray(chocolateBars, indexposition) {
   return chocolateBars[indexposition]
 }
 
-
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
+  chocolateBars.shift()
+  return chocolateBars
+}
